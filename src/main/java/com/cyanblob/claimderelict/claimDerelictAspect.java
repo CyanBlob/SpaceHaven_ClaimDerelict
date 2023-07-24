@@ -74,7 +74,6 @@ public class claimDerelictAspect {
     };
 
     TextIconButton1 getPurchaseButton(int price) {
-        System.out.println("GET PURCHASE BUTTON");
         boolean bool = CompiledClassLoader.canCallOnGet;
         CompiledClassLoader.canCallOnGet = false;
         TextIconButton1 purchaseButton = TextButtons2.getIconBase2();
@@ -86,14 +85,12 @@ public class claimDerelictAspect {
         if (CompiledClassLoader.canCallOnGet)
             purchaseButton.onGet();
 
-        System.out.println("RETURN PURCHASE BUTTON");
         return purchaseButton;
     }
 
     clickHandler claimDerelictClickHandler(Ship ship, clickHandler onClick, int price, World world)
             throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
 
-        System.out.println("GET CLICK HANDLER");
         return new clickHandler() {
             public void clicked() {
                 Field privateUriField;
