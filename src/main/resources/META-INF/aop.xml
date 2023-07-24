@@ -1,9 +1,7 @@
 <aspectj>
     <aspects>
         <!-- Aspects -->
-        <aspect name="com.cyanblob.SpaceHavenMod.outlineAspect" />
-        <aspect name="com.cyanblob.SpaceHavenMod.guiAspect" />
-        <aspect name="com.cyanblob.SpaceHavenMod.storageGuiAspect" />
+        <aspect name="com.cyanblob.claimderelict.claimDerelictAspect" />
     </aspects>
 
     <weaver options="-verbose -showWeaveInfo">
