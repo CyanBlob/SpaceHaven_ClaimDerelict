@@ -1,0 +1,16 @@
+<mod>
+	<name>Claim Derelict</name>
+	<author>Andrew Thomas (CyanBlob)</author>
+
+	<gameVersions>
+		<v>0.17.0</v>
+	</gameVersions>
+
+	<minimumLoaderVersion>0.11.0</minimumLoaderVersion>
+
+	<version>0.0.1</version>
+
+	<description>
+	Allows purchasing derelict ships
+	</description>
+</mod>
